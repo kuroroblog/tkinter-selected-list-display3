@@ -1,5 +1,5 @@
 # tkinter-selected-list-display3
-filedialogを使ってcsvファイルを選択する。選択されたcsvファイル内容を確認できるように、いい感じにlistbox Widgetを利用する。
+filedialogを使ってcsvファイルを選択する。選択されたcsvファイル内容を確認できるように、いい感じにlistbox Widget, scale Widgetを利用する。
 
 # zipをダウンロードしてから動作確認する
 1. https://github.com/kuroroblog/tkinter-selected-list-display3 へアクセスする。
