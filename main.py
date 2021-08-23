@@ -58,13 +58,15 @@ class Application(tk.Frame):
                     # tk.END : 末尾
                     self.listBox.insert(tk.END, headerList[i])
 
+                cnt = 0
                 for rowList in reader:
+                    cnt += 1
                     for j in range(0, len(rowList)):
                         self.listBoxData[j]['list'].append(rowList[j])
 
                 # 選択されるcsvファイルの行数に応じて、scale Widgetの上限値(to)を変更する。
-                self.fromScale.configure(to=len(rowList[0]) + 1)
-                self.toScale.configure(to=len(rowList[0]) + 1)
+                self.fromScale.configure(to=cnt)
+                self.toScale.configure(to=cnt)
 
     # listbox Widgetの選択肢が変更された場合に、実行する関数を設定。
     def getListFromSelectIdx(self, event):
