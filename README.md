@@ -1,4 +1,4 @@
-# tkinter-selected-list-display2
+# tkinter-selected-list-display3
 filedialogを使ってcsvファイルを選択する。選択されたcsvファイル内容を確認できるように、いい感じにlistbox Widgetを利用する。
 
 # zipをダウンロードしてから動作確認する
