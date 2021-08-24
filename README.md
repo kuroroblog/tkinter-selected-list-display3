@@ -12,4 +12,4 @@ filedialogを使ってcsvファイルを選択する。選択されたcsvファ�
 8. `$ python main.py`を実行する。
 
 # 動作確認動画
-<img width="1680" alt="screenshot 2021-08-05 18 40 33" src="https://user-images.githubusercontent.com/23373288/128329035-a3da3210-8176-4538-86d2-488f7d241d80.png">
+https://user-images.githubusercontent.com/23373288/130534443-2591a491-8c27-40f4-8a1b-5da289cc1407.mp4
